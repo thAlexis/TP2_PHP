@@ -23,7 +23,7 @@ function conjuguer($radical, $terminaisons)
 
   $pronoms = ['Je ', 'Tu ', 'IL/Elle ', 'Nous ', 'Vous ', 'Ils '];
 
-  $resultat = "<ul>";
+  $resultat = "<ul class=resultat>";
   foreach ($pronoms as $key => $pronom) {
     $resultat .= "<li>$pronom $radical" . $terminaisons[$key] . "</li>";
   }
