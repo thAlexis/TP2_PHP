@@ -24,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
+  <?php include "./_menu.php" ?>
   <h1 class="text-primary text-center my-5">Calculette</h1>
   <form action="./calculette.php" method="post" class="container my-5">
     <div class="mb-3 row">
